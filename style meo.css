@@ -58,7 +58,13 @@ background-color: #ffffff;
     
 }
 th:hover{
-    background-color: #4466dd
+    background-color: #ccddff;
+    color: #ffffff;
+}
+td:hover{
+background-color:#000000;
+    color:#ccddff;
+    
 }
 
 
