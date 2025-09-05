@@ -48,12 +48,13 @@ footer{
   
 }
 table, th, td {
-    border: 1px solid white;
+    border: 1px solid #99aaff;
 }
 th, td {
-background-color: #ffff77;
+background-color: #ffffff;
     
 }
+
 
 
 
