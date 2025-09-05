@@ -57,7 +57,9 @@ th, td {
 background-color: #ffffff;
     
 }
-
+tr:hover{
+    background-color:#7788ff;
+}
 
 
 
