@@ -49,17 +49,16 @@ footer{
 }
 table, th, td {
     border: 1px solid #99aaff;
-    width:90%
+   
     text-align:center;
-    padding:3px;
+    padding:10px;
 }
 th, td {
 background-color: #ffffff;
     
 }
-tr:hover{
-    background-color:#7788ff;
-}
+
+
 
 
 
