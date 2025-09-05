@@ -47,10 +47,8 @@ footer{
     text-align:center;
   
 }
-table{
-    text-align:center;
-    background-color:#ffffff;
-    color:#000000;
-    font-family:'Courier New', Courier, monospace;
-}
+table, th, td{
+    border:2px solid #3333ff;
+    
+
 
