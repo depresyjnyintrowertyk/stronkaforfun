@@ -14,6 +14,9 @@ header{
  margin-top:10px;
  margin-right:10px;
 }
+.navbar a:hover{
+    color: #ffaa66
+}
 .navbar a{
     font-family: 'Courier New', Courier, monospace;
     text-decoration:none;
@@ -56,3 +59,4 @@ footer{
     text-align:center;
   
 }
+
