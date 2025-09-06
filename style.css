@@ -41,12 +41,6 @@ h1{
 display:inline;
 
 }
-video{
-    position:relative;
-    left:60%;
-    top:-425px;
-    
-}
 footer{
     font-family:'Courier New', Courier, monospace;
     left: 0;
@@ -67,6 +61,7 @@ max-width:50%;
     margin-left:100%;
     
 }
+
 
 
 
