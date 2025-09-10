@@ -1,68 +1,54 @@
-header{
-    background-color:#aac1ff
-    
-}
-.navbar ul{
-    display:inline;
-    list-style-type:none;
-    overflow:hidden;
-    
-}
-.navbar li{
-    padding:10px;
- float:right;
- margin-top:10px;
- margin-right:10px;
-}
-.navbar a:hover{
-    color: #ffffff
-}
-.navbar a{
-    font-family: 'Courier New', Courier, monospace;
-    text-decoration:none;
-}
-body{
+*{
     margin:0;
     padding:0;
-    background-color:#ffffee;
+    text-wrap:pretty;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
 pre{
-    margin-left:160px;
-    font-family: 'Courier New', Courier, monospace;
+    margin:0vw 10vw;
 }
 h1{
-    margin-left:20%;
-    margin-top:20%;
-    font-family: 'Courier New', Courier, monospace;
-    color:cadetblue;
+    margin:0vw 2vw;
 }
-.navbar img{
-display:inline;
-
+header, footer{
+    background-color: #ffbb22;
 }
-footer{
-    font-family:'Courier New', Courier, monospace;
-    left: 0;
-    bottom: 0%;
-    width: 100%;
-    height:60px;
-    position:relative;
-    display:block;
-    background-color:#aac1ff;
-    text-align:center;
-  
+img{
+    width:100%;
 }
-#kaka{
-
-max-width:50%;
-    height:auto;
-    margin-top:80%;
-    margin-left:100%;
+nav{
+    background-color:#ffbb22;
+    text-decoration:none;
+    position:sticky;
+    top:0;
+    height:6vh;
     
 }
+li{
+    display:inline-flex;
+    float:right;
+}
+.navi{
+    padding-right: 2.5%;
+    padding-top:1.5vh;
 
+}
+.navi:hover{
+    color:#ffffff;
+}
 
+footer{
+    height:10vh;
+}
 
+#foot{
+    text-align:center;
+    padding:20px; 
+}
+#img1 {display:block;}
+#img2 {display:none;}
 
-
+@media all and (max-width:600px){
+    #img1 {display:none;}
+    #img2 {display:block;}
+}
