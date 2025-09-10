@@ -48,7 +48,8 @@ footer{
 #img1 {display:block;}
 #img2 {display:none;}
 
-@media all and (max-width:600px){
+@media all and (max-width:1080px){
     #img1 {display:none;}
     #img2 {display:block;}
 }
+
