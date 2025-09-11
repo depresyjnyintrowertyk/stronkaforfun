@@ -1,120 +1,116 @@
-<!DOCTYPE HTML>
-<html>
-
-<head>
-
-<meta charset="UTF-8">
-<html lang =" en" />
-<title>Halamska Portfolio</title>
-<link rel="stylesheet" href="style.css" />
-<meta name="description" content="Maria Halamska's IT & Motion Design Portfolio">
-<meta name="author" content="Maria Halamska">
-<link rel="icon" href="gallery/icon.png"></icon>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<meta content="width=device-width, initial-scale=1.0"/>
-</head>
-
-<header>
-
-
-<img id="img2" src="gallery/headmobile.png" alt=""  />
-<img id="img1" src="gallery/head.png" alt="" />
-
-
-</header>
-
-<nav>
-  <ul>
-    <li class="navo">
-      <img src="gallery/hamburg_b.png" id="hamb">
-    </li>
-    <li class="navo">Main</li>
+*{
+    margin:0;
+    padding:0;
+    text-wrap:pretty;
     
-   
-    <li class="navi">Motion Design</li>
-    <li class="navi">Information Technology</li>
-    <li class="navi">About Me</li>
-    <li class="navi">Main</li>
+}
+
+
+
+header, footer{
+    background-color: #ffbb22;
+}
+img{
+    width:100%;
+}
+nav{
+    background-color:#ffbb22;
+    text-decoration:none;
+    position:sticky;
+    top:0;
+    height:6vh;
     
-    
+}
+li{
+    display:inline-flex;
+    float:right;
+}
+.navo{
+    display:none
+}
+.navo{
+    padding-right: 2.5%;
+    padding-top:1vh;
+    font-size:3vh;
+    font-family: "Montserrat Alternates", sans-serif;
     
 
-  </ul>
-</nav>
-<body>
-<br/>
+}
+.navo:hover{
+    color:#ffffff;
+}
+#hamb{
+    padding-top:0.5vh;
+    height:3vh;
+}
+#hamb:hover{
+filter:invert(100%);
+}
+.navi{
+    padding-right: 2.5%;
+    padding-top:1.5vh;
+    font-size:18px;
+    font-family: "Montserrat Alternates", sans-serif;
 
-<h1>
-    Maria's Portfolio
-</h1>
+}
+.navi:hover{
+    color:#ffffff;
+}
+#wompek{
+    margin:0vh 5vh;
+    width:400px;
+    float:right;
+}
+pre{
+    margin:0vw 30vw 0vw 10vw;
+    font-size:18px;
+    font-family: "Montserrat Alternates", sans-serif;
+    text-wrap:initial;
+}
+h1{
+    margin:0vw 2vw;
+    font-size:70px;
+    font-family:'Nerko One','Gill Sans', Sans-serif;
+    line-height:80%;
+}
 
-<br/>
+footer{
+    height:10vh;
+    font-family: "Montserrat Alternates", sans-serif;
+}
 
-<pre>Hi!
-Welcome to My Website where you can see my motion design projects and admire my newest programming project which is this website!
-I hope you'll enjoy it!
-</pre>
-
-<img id="wompek" src="gallery/womp.png" alt="wompek"/>
-
-<pre>
-
-
-
-
-    and some other things i need to see it scroll rn
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    mooooreee!!!
+#foot{
+    text-align:center;
+    padding:20px; 
+}
+#img1 {display:block;}
+#img2 {display:none;}
 
 
 
-    MOore placeholder text will go there for now
-
-
-
-
-    
-</pre>
-</body>
-
-<footer>
-
-<p id="foot">tekst tekst tekst tekst</p>
-
-</footer>
-</html>
+@media all and (max-width:1080px){
+    h1{
+        font-size:90px;
+    }
+    pre{
+    font-size:24px;
+    }
+    #img1 {display:none;}
+    #img2 {display:block;}
+    .navi{
+        display:none;
+    }
+    .navo{
+        display:block;
+    }
+}
+.nerko-one-regular {
+  font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-alternates-regular {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
