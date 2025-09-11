@@ -31,12 +31,15 @@ li{
 .navo{
     padding-right: 2.5%;
     padding-top:1.5vh;
-    font-size:15px;
+    font-size:20px;
     font-family: "Montserrat Alternates", sans-serif;
 
 }
 .navo:hover{
     color:#ffffff;
+}
+#hamb:hover{
+filter:invert(100%);
 }
 .navi{
     padding-right: 2.5%;
