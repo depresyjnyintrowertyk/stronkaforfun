@@ -4,7 +4,9 @@
     text-wrap:pretty;
     
 }
-
+html,body{
+    overflow-x: hidden;
+}
 
 
 header, footer{
@@ -175,4 +177,5 @@ font-size:50px;
   font-weight: 400;
   font-style: normal;
 }
+
 
