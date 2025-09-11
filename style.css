@@ -30,13 +30,18 @@ li{
 }
 .navo{
     padding-right: 2.5%;
-    padding-top:1.5vh;
-    font-size:20px;
+    padding-top:1vh;
+    font-size:3vh;
     font-family: "Montserrat Alternates", sans-serif;
+    
 
 }
 .navo:hover{
     color:#ffffff;
+}
+#hamb{
+    padding-top:0.5vh;
+    height:3vh;
 }
 #hamb:hover{
 filter:invert(100%);
@@ -51,16 +56,22 @@ filter:invert(100%);
 .navi:hover{
     color:#ffffff;
 }
-
+#wompek{
+    margin:0vh 5vh;
+    width:400px;
+    float:right;
+}
 pre{
     margin:0vw 30vw 0vw 10vw;
     font-size:18px;
     font-family: "Montserrat Alternates", sans-serif;
+    text-wrap:initial;
 }
 h1{
     margin:0vw 2vw;
     font-size:70px;
     font-family:'Nerko One','Gill Sans', Sans-serif;
+    line-height:80%;
 }
 
 footer{
@@ -78,6 +89,12 @@ footer{
 
 
 @media all and (max-width:1080px){
+    h1{
+        font-size:90px;
+    }
+    pre{
+    font-size:24px;
+    }
     #img1 {display:none;}
     #img2 {display:block;}
     .navi{
@@ -85,6 +102,11 @@ footer{
     }
     .navo{
         display:block;
+    }
+    #wompek{
+        width:100%;
+        padding:10px 0px;
+        margin:0;
     }
 }
 .nerko-one-regular {
