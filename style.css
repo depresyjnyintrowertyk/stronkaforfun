@@ -4,10 +4,10 @@
     text-wrap:pretty;
     
 }
+
 body{
     background-image: url("gallery/background.png");
 }
-
 header, footer{
     background-color: #ffbb22;
 }
@@ -137,13 +137,15 @@ footer{
 #img2 {display:none;}
 
 
-
 @media all and (max-width:1080px){
   
-    pre{font-size:3vh;}
+    pre{
+        font-size:3vh;
+        margin:1vw;
+    }
 
     p{font-size:3vh;}
-
+    h1{font-size:20vw}
     #img1 {display:none;}
     #img2 {display:block;}
     .navi{
@@ -174,4 +176,3 @@ font-size:30px;
   font-weight: 400;
   font-style: normal;
 }
-
