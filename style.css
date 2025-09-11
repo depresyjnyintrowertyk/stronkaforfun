@@ -2,14 +2,11 @@
     margin:0;
     padding:0;
     text-wrap:pretty;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
-pre{
-    margin:0vw 10vw;
-}
-h1{
-    margin:0vw 2vw;
-}
+
+
+
 header, footer{
     background-color: #ffbb22;
 }
@@ -28,17 +25,44 @@ li{
     display:inline-flex;
     float:right;
 }
+.navo{
+    display:none
+}
+.navo{
+    padding-right: 2.5%;
+    padding-top:1.5vh;
+    font-size:15px;
+    font-family: "Montserrat Alternates", sans-serif;
+
+}
+.navo:hover{
+    color:#ffffff;
+}
 .navi{
     padding-right: 2.5%;
     padding-top:1.5vh;
+    font-size:18px;
+    font-family: "Montserrat Alternates", sans-serif;
 
 }
 .navi:hover{
     color:#ffffff;
 }
 
+pre{
+    margin:0vw 30vw 0vw 10vw;
+    font-size:18px;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+h1{
+    margin:0vw 2vw;
+    font-size:70px;
+    font-family:'Nerko One','Gill Sans', Sans-serif;
+}
+
 footer{
     height:10vh;
+    font-family: "Montserrat Alternates", sans-serif;
 }
 
 #foot{
@@ -48,8 +72,25 @@ footer{
 #img1 {display:block;}
 #img2 {display:none;}
 
+
+
 @media all and (max-width:1080px){
     #img1 {display:none;}
     #img2 {display:block;}
+    .navi{
+        display:none;
+    }
+    .navo{
+        display:block;
+    }
 }
-
+.nerko-one-regular {
+  font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-alternates-regular {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
