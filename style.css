@@ -145,7 +145,8 @@ footer{
     }
 
     p{font-size:3vh;}
-    h1{font-size:20vw}
+    h1{font-size:18vw;
+    padding:2vw;}
     #img1 {display:none;}
     #img2 {display:block;}
     .navi{
@@ -176,3 +177,4 @@ font-size:30px;
   font-weight: 400;
   font-style: normal;
 }
+
