@@ -77,12 +77,11 @@ h1{
 footer{
     height:10vh;
     font-family: "Montserrat Alternates", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#foot{
-    text-align:center;
-    padding:20px; 
-}
 #img1 {display:block;}
 #img2 {display:none;}
 
@@ -92,9 +91,8 @@ footer{
     h1{
         font-size:90px;
     }
-    pre{
-    font-size:24px;
-    }
+    pre{font-size:24px;}
+    p{font-size:24px;}
     #img1 {display:none;}
     #img2 {display:block;}
     .navi{
@@ -119,3 +117,4 @@ footer{
   font-weight: 400;
   font-style: normal;
 }
+
