@@ -38,6 +38,7 @@ li{
 }
 .navo:hover{
     color:#ffffff;
+    cursor:pointer;
 }
 #hamb{
     padding-top:0.5vh;
@@ -45,6 +46,7 @@ li{
 }
 #hamb:hover{
 filter:invert(100%);
+cursor:pointer;
 }
 .navi{
     padding-right: 2.5%;
@@ -55,21 +57,71 @@ filter:invert(100%);
 }
 .navi:hover{
     color:#ffffff;
+    cursor:pointer;
 }
+h2{
+    font-size:8vh;
+    font-family:'Nerko One','Gill Sans', Sans-serif;
+}
+.button{
+    color:#ffffff;
+    
+    padding:0.5vh 5vh;
+    border-radius:30% 80%;
+
+    background-color:#ffbb22;
+    box-shadow:0px 0px 40px #ffbb22;
+    display:inline-block;
+    margin:5vh 20vh;
+}
+    
+.button:hover{
+    display:"nic nie robixd";
+    cursor:pointer;
+}
+.button .tooltip{
+visibility:hidden;
+font-size:20px;
+color:#000000;
+background-color:#ff8822;
+margin: 0px 0px 0px 15px;
+padding: 10px;
+}
+.button:hover{
+    color:#ffbb22;
+    background-color:#000000;
+}
+.button:hover .tooltip{
+    visibility:visible;
+}
+
+
 #wompek{
-    margin:0vh 5vh;
+    margin:0vh 5vh 0vh 0vh;
     width:400px;
     float:right;
+    
+}
+#bunb{
+    max-width:1920px;
+    width:100%;
+    margin:10vh 0vh;
+
+    object-fit:scale-down;
+    
+}
+p{
+    font-size:2vh;
 }
 pre{
     margin:0vw 30vw 0vw 10vw;
-    font-size:18px;
+    font-size:2vh;
     font-family: "Montserrat Alternates", sans-serif;
     text-wrap:initial;
 }
 h1{
     margin:0vw 2vw;
-    font-size:70px;
+    font-size:15vh;
     font-family:'Nerko One','Gill Sans', Sans-serif;
     line-height:80%;
 }
@@ -88,11 +140,11 @@ footer{
 
 
 @media all and (max-width:1080px){
-    h1{
-        font-size:90px;
-    }
-    pre{font-size:24px;}
-    p{font-size:24px;}
+  
+    pre{font-size:3vh;}
+
+    p{font-size:3vh;}
+
     #img1 {display:none;}
     #img2 {display:block;}
     .navi{
@@ -106,7 +158,15 @@ footer{
         padding:10px 0px;
         margin:0;
     }
+    h2{
+        font-size:20vw;
+    }
+    .button .tooltip{
+visibility:hidden;
+font-size:50px;
+
 }
+} 
 .nerko-one-regular {
   font-family: "Nerko One", cursive;
   font-weight: 400;
@@ -117,4 +177,3 @@ footer{
   font-weight: 400;
   font-style: normal;
 }
-
