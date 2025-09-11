@@ -4,16 +4,13 @@
     text-wrap:pretty;
     
 }
-html,body{
-    overflow-x: hidden;
-}
 
 
 header, footer{
     background-color: #ffbb22;
 }
 img{
-    width:100%;
+    max-width:100%;
 }
 nav{
     background-color:#ffbb22;
@@ -74,7 +71,7 @@ h2{
     background-color:#ffbb22;
     box-shadow:0px 0px 40px #ffbb22;
     display:inline-block;
-    margin:5vh 20vh;
+    margin:5vh 10vw;
 }
     
 .button:hover{
@@ -105,10 +102,10 @@ padding: 10px;
     
 }
 #bunb{
-    min-width:600px;
-    max-width:1080px;
+   
     margin:15vh 0vh;
     object-fit:scale-down;
+    
 }
 p{
     font-size:2vh;
@@ -162,9 +159,7 @@ footer{
         font-size:20vw;
     }
     .button .tooltip{
-visibility:hidden;
-font-size:50px;
-
+font-size:30px;
 }
 } 
 .nerko-one-regular {
@@ -177,5 +172,3 @@ font-size:50px;
   font-weight: 400;
   font-style: normal;
 }
-
-
