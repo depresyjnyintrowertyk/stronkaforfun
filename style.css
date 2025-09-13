@@ -74,6 +74,7 @@ h2{
 }
 .button a:visited{
     color:#ffffff;
+    text-decoration:none;
     
 }
 .button{
@@ -171,6 +172,10 @@ footer{
     .navo{
         display:block;
     }
+    li a:hover{
+    color:#ffffff;
+    cursor:pointer;
+    }
     #wompek{
         width:100%;
         padding:10px 0px;
@@ -193,6 +198,7 @@ font-size:30px;
   font-weight: 400;
   font-style: normal;
 }
+
 
 
 
