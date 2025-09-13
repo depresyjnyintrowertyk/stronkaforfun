@@ -12,6 +12,9 @@ body{
     background-color:#ffffff;
     color:#552200;
 }
+a{
+    text-decoration:none;
+}
 li a:visited{
     text-decoration:none;
     color:#000000;
@@ -71,6 +74,9 @@ li a:hover{
 h2{
     font-size:8vh;
     font-family:'Nerko One','Gill Sans', Sans-serif;
+}
+.button a{
+     text-decoration:none;
 }
 .button a:visited{
     color:#ffffff;
@@ -161,8 +167,10 @@ footer{
 
     p{font-size:3vh;}
     
-    h1{font-size:18vw;
-    padding:6vw 0vw;}
+    h1{
+        font-size:18vw;
+        padding:6vw 0vw;
+    }
     
     #img1 {display:none;}
     #img2 {display:block;}
@@ -173,8 +181,12 @@ footer{
         display:block;
     }
     li a:hover{
-    color:#ffffff;
-    cursor:pointer;
+        color:#ffffff;
+        cursor:pointer;
+    }
+    .navo a:hover{
+        color:#ffffff;
+        cursor:pointer;
     }
     #wompek{
         width:100%;
@@ -198,6 +210,7 @@ font-size:30px;
   font-weight: 400;
   font-style: normal;
 }
+
 
 
 
