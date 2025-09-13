@@ -49,11 +49,11 @@ li{
 
 }
 
-#hamb{
+a #hamb{
     padding-top:0.5vh;
     height:3vh;
 }
-#hamb:hover{
+a #hamb:hover{
     filter:invert(100%);
     cursor:pointer;
 }
@@ -193,6 +193,7 @@ font-size:30px;
   font-weight: 400;
   font-style: normal;
 }
+
 
 
 
