@@ -12,7 +12,7 @@ body{
     background-color:#ffffff;
     color:#552200;
 }
-a::visited{
+li a::visited{
     text-decoration:none;
     color:#000000;
 }
@@ -29,7 +29,10 @@ nav{
     height:6vh;
     
 }
-a{text-decoration:none;}
+li a{
+    text-decoration:none;
+    color:#000000;
+}
 
 li{
     display:inline-flex;
@@ -50,9 +53,9 @@ li{
     padding-top:0.5vh;
     height:3vh;
 }
-#hamb:hover a{
-filter:invert(100%);
-cursor:pointer;
+#hamb a:hover{
+    filter:invert(100%);
+    cursor:pointer;
 }
 .navi{
     padding-right: 2.5%;
@@ -61,13 +64,16 @@ cursor:pointer;
     font-family: "Montserrat Alternates", sans-serif;
 
 }
-.navi:hover a{
+li a:hover{
     color:#ffffff;
     cursor:pointer;
 }
 h2{
     font-size:8vh;
     font-family:'Nerko One','Gill Sans', Sans-serif;
+}
+.button a::visited{
+    color:#ffffff;
 }
 .button{
     color:#ffffff;
@@ -94,7 +100,7 @@ h2{
     margin: 0px 0px 0px 15px;
     padding: 10px;
 }
-.button:hover{
+.button a:hover{
     color:#ffbb22;
     background-color:#000000;
 }
@@ -186,6 +192,7 @@ font-size:30px;
   font-weight: 400;
   font-style: normal;
 }
+
 
 
 
