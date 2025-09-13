@@ -12,7 +12,7 @@ body{
     background-color:#ffffff;
     color:#552200;
 }
-li a::visited{
+li a:visited{
     text-decoration:none;
     color:#000000;
 }
@@ -49,11 +49,11 @@ li{
 
 }
 
-#hamb a{
+#hamb{
     padding-top:0.5vh;
     height:3vh;
 }
-#hamb a:hover{
+#hamb:hover{
     filter:invert(100%);
     cursor:pointer;
 }
@@ -72,8 +72,9 @@ h2{
     font-size:8vh;
     font-family:'Nerko One','Gill Sans', Sans-serif;
 }
-.button a::visited{
+.button a:visited{
     color:#ffffff;
+    
 }
 .button{
     color:#ffffff;
@@ -192,6 +193,7 @@ font-size:30px;
   font-weight: 400;
   font-style: normal;
 }
+
 
 
 
